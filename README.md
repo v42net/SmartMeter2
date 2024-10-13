@@ -4,6 +4,7 @@ Door een gedeeltelijke overgang van gas naar elektra wil ik ook graag de *kosten
 
 Met deze nieuwe webinterface wil ik het verbruik en de kosten, per dag, week, en maand kunnen zien, met ter vergelijking de getallen van voorgaande jaren.
 Om die vergelijking te kunnen maken gebruik ik het *huidige* verbruikstarief ook voor de voorgaande jaren. Anders valt het niet te vergeljken.
+Het zijn dus niet de *werkelijke* kosten in de voorgaande jaren.
 
 ## Tabs
 De webinterface heeft bovenaan een aantal tabs:
