@@ -1,6 +1,6 @@
 # Smartmeter2 - Webinterface elektra- en gasverbruik
 *Work-in-progress*: Mijn oude `Smartmeter` webinterface laat alleen de standen en het verbruik per dag en per maand zien maar niet de kosten.
-Door een gedeeltelijke overgang van gas naar elektra wil ik ook graag de kosten kunnen zien, wat doet die overgang "onder de streep"?
+Door een gedeeltelijke overgang van gas naar elektra wil ik ook graag de *kosten* kunnen zien, wat doet die overgang "onder de streep"?
 
 Met deze nieuwe webinterface wil ik het verbruik en de kosten, per dag, week, en maand kunnen zien, met ter vergelijking de getallen van voorgaande jaren.
 Om die vergelijking te kunnen maken gebruik ik het *huidige* verbruikstarief ook voor de voorgaande jaren. Anders valt het niet te vergeljken.
