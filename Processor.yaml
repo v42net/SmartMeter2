@@ -1,0 +1,4 @@
+input:
+    path: /appl/SmartMeter/Collector/Data
+output:
+    path: /appl/SmartMeter2/Processor

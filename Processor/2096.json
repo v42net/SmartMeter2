@@ -1,0 +1,44 @@
+{
+  "updated": true,
+  "month": {
+    "14": [
+      null,
+      null,
+      2,
+      null,
+      null,
+      3801.957,
+      2
+    ],
+    "undefined": [
+      null,
+      null,
+      4.5303033313030335e+33,
+      null,
+      null,
+      3800.686,
+      4.5303033313030335e+33
+    ]
+  },
+  "week": {},
+  "day": {
+    "NaN": [
+      null,
+      null,
+      4.5303033313030335e+33,
+      null,
+      null,
+      3800.686,
+      4.5303033313030335e+33
+    ],
+    "14undefined": [
+      null,
+      null,
+      2,
+      null,
+      null,
+      3801.957,
+      2
+    ]
+  }
+}

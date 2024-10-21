@@ -1,0 +1,111 @@
+html {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+body {
+    background-color: #cccccc;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+table {
+    border: none;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+thead {
+    position: sticky;
+    top: 0;
+}
+th {
+    background-color: #cccccc;
+    border: none:
+    color: #000000;
+    font-weight: normal;
+    padding: 4px 8px;
+}
+th.title {
+    border: none:
+}
+th.tabs {
+    border: none:
+}
+th.period {
+    background-color: #ffffff;
+    border: 1px solid #666666;
+}
+th.column {
+    background-color: #ffffff;
+    border: 1px solid #666666;
+    border-left: none;
+}
+th.last {
+    background-color: #ffffff;
+    border-right: 1px solid #666666;
+    border-bottom: 1px solid #666666;
+    font-size: 10pt;
+}
+td {
+    background-color: #cccccc;
+    border-right: 1px solid #666666;
+    border-bottom: 1px solid #666666;
+    color: #000000;
+    font-weight: normal;
+    padding: 2px 8px;
+}
+td.period {
+    border-left: 1px solid #666666;
+}
+
+
+
+/* Style the tab */
+.tab {
+    border: none;
+    border-bottom: 2px solid #666666;
+    border-top: 2px solid #cccccc;
+    background-color: #cccccc;
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: 2px solid #666666;
+    border-bottom: none;
+    border-radius: 16px 16px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    height: 32px;
+    outline: none;
+    cursor: pointer;
+    padding: 0px 16px;
+    transition: 0.3s;
+}
+.tab img {
+    background-color: inherit;
+    float: left;
+    border: 1px solid #cccccc;
+    height: 100%;
+    outline: none;
+    width: 32px;
+}
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ffffff;
+}
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ffffff;
+}

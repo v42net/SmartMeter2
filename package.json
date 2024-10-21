@@ -1,0 +1,7 @@
+{
+    "name": "smartmeter2.v42.net",
+    "dependencies": {
+        "config": "latest",
+        "js-yaml": "latest"
+    }
+}
