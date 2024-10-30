@@ -26,16 +26,20 @@ thead {
 }
 th {
     background-color: #cccccc;
-    border: none:
+    border: none;
     color: #000000;
     font-weight: normal;
-    padding: 4px 8px;
+    padding: 4px 6px;
 }
 th.title {
-    border: none:
+    border: none;
+    font-size: 16pt;
+    font-weight: bold;
+    text-align: left;
 }
 th.tabs {
-    border: none:
+    border: none;
+    padding: 0px;
 }
 th.period {
     background-color: #ffffff;
@@ -58,54 +62,56 @@ td {
     border-bottom: 1px solid #666666;
     color: #000000;
     font-weight: normal;
-    padding: 2px 8px;
+    text-align: right;
+    padding: 2px 4px;
 }
 td.period {
     border-left: 1px solid #666666;
+    white-space: nowrap;
 }
-
-
-
-/* Style the tab */
-.tab {
+div.tabs {
     border: none;
-    border-bottom: 2px solid #666666;
-    border-top: 2px solid #cccccc;
-    background-color: #cccccc;
-    overflow: hidden;
-    position: fixed;
-    top: 0px;
-    width: 100%;
+    height: 28px;
+    margin: 0px;
+    padding: 0px;
 }
-/* Style the buttons that are used to open the tab content */
-.tab button {
-    background-color: inherit;
-    float: left;
+div.tab {
     border: 2px solid #666666;
     border-bottom: none;
     border-radius: 16px 16px 0px 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    float: left;
+    height: 100%;
+    line-height: 30px;
+    margin: 0px;
+    padding: 0px 12px 0px 12px;
+}
+div.activetab {
+    background-color: #ffffff;
+    border: 2px solid #666666;
+    border-bottom: none;
+    border-radius: 16px 16px 0px 0px;
+    cursor: pointer;
+    float: left;
+    font-weight: bold;
+    height: 100%;
+    line-height: 30px;
+    margin: 0px;
+    padding: 0px 12px 0px 12px;
+}
+div.tabspacer {
+    border: none;
+    float: left;
+    margin: 0px;
+    padding: 8px;
+}
+select.tab {
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
     font-size: 12pt;
     font-weight: bold;
-    height: 32px;
+    margin: 0px;
     outline: none;
-    cursor: pointer;
-    padding: 0px 16px;
-    transition: 0.3s;
-}
-.tab img {
-    background-color: inherit;
-    float: left;
-    border: 1px solid #cccccc;
-    height: 100%;
-    outline: none;
-    width: 32px;
-}
-/* Change background color of buttons on hover */
-.tab button:hover {
-    background-color: #ffffff;
-}
-/* Create an active/current tablink class */
-.tab button.active {
-    background-color: #ffffff;
+    padding: 0px;
 }
