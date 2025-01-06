@@ -50,23 +50,24 @@ th.column {
     border: 1px solid #666666;
     border-left: none;
 }
-th.last {
+th.cg1, th.cg2, th.cg3, th.cg4, th.cg5 {
     background-color: #ffffff;
-    border-right: 1px solid #666666;
-    border-bottom: 1px solid #666666;
+    border: 1px solid #666666;
+    border-left: none;
     font-size: 10pt;
 }
-td {
+td, td.cg1, td.cg2, td.cg3, td.cg4, td.cg5 {
     background-color: #cccccc;
     border-right: 1px solid #666666;
     border-bottom: 1px solid #666666;
     color: #000000;
     font-weight: normal;
     text-align: right;
-    padding: 2px 4px;
+    padding: 5px 4px 3px 8px;
 }
 td.period {
     border-left: 1px solid #666666;
+    text-align: left;
     white-space: nowrap;
 }
 div.tabs {
@@ -76,17 +77,6 @@ div.tabs {
     padding: 0px;
 }
 div.tab {
-    border: 2px solid #666666;
-    border-bottom: none;
-    border-radius: 16px 16px 0px 0px;
-    cursor: pointer;
-    float: left;
-    height: 100%;
-    line-height: 30px;
-    margin: 0px;
-    padding: 0px 12px 0px 12px;
-}
-div.activetab {
     background-color: #ffffff;
     border: 2px solid #666666;
     border-bottom: none;
